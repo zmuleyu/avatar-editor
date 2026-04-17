@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "test": "vitest",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "pages:build": "next-on-pages",
+    "pages:preview": "wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,7 @@
     "react-image-crop": "^11.0.10"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
     "@tailwindcss/postcss": "^4.2.2",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/react": "^16.3.2",
@@ -29,6 +32,7 @@
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
     "@vitest/ui": "^4.1.4",
     "autoprefixer": "^10.5.0",
     "happy-dom": "^20.9.0",
