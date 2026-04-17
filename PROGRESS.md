@@ -20,15 +20,15 @@
 
 **总测试**: 28/28 pass ✅ | **Build**: exit 0 ✅
 
-## Phase 1 Review Checkpoint（待执行）
+## Phase 1 Review Checkpoint ✅
 
-- [ ] `pnpm test:run` 全绿确认
-- [ ] 手动 `pnpm dev` → `/standalone` 完整流程测试
-- [ ] 推送至 `github.com/zmuleyu/avatar-editor`
+- [x] `pnpm test:run` 28/28 pass ✅
+- [ ] 手动 `pnpm dev` → `/standalone` 完整流程测试（待执行）
+- [x] 推送至 `github.com/zmuleyu/avatar-editor` ✅
 
 ## Phase 2: TCF 集成 + 部署（Tasks 13-18）
 
-- [ ] Task 13: avatar-editor-bridge.ts in TCF（TDD）
+- [x] Task 13: avatar-editor-bridge.ts in TCF（TDD 3/3 pass）| branch: feat/avatar-editor-bridge ✅
 - [ ] Task 14: step-name-avatar.ts 注入按钮（读文件确认 DOM 结构）
 - [ ] Task 15: account-modal.ts 注入按钮
 - [ ] Task 16: Playwright 跨站 E2E
